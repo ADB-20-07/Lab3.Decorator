@@ -1,0 +1,49 @@
+﻿  bus_travel.cpp
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\bus_travel.h(11,6): error C3668: BusTravel::days: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\bus_travel.cpp(4,2): error C2511: BusTravel::BusTravel(int,int,const std::string &): перегруженная функция-член не найдена в "BusTravel"
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\bus_travel.h(5): message : см. объявление "BusTravel"
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\bus_travel.cpp(4,54): error C2550: BusTravel::{ctor}: список инициализации конструктора должен использоваться только в месте определения конструктора
+  excursion_decor.cpp
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\excursion_decor.h(9,6): error C3668: ExcursionDecorator::days: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+  hotel_decorator.cpp
+  Lab3.Decorator.cpp
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\bus_travel.h(11,6): error C3668: BusTravel::days: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\excursion_decor.h(9,6): error C3668: ExcursionDecorator::days: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\Lab3.Decorator.cpp(11): error C2259: "BusTravel": невозможно создать экземпляр абстрактного класса
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\bus_travel.h(5): message : см. объявление "BusTravel"
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\Lab3.Decorator.cpp(11): message : из-за следующих членов:
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\Lab3.Decorator.cpp(11): message : int Travel::days(void): абстрактный
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\travel.h(6): message : см. объявление "Travel::days"
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\Lab3.Decorator.cpp(11,34): error C2259: "BusTravel": невозможно создать экземпляр абстрактного класса
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\bus_travel.h(5): message : см. объявление "BusTravel"
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\Lab3.Decorator.cpp(11,34): message : из-за следующих членов:
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\Lab3.Decorator.cpp(11,34): message : int Travel::days(void): абстрактный
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\travel.h(6): message : см. объявление "Travel::days"
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\Lab3.Decorator.cpp(14): error C2259: "HotelDecorator": невозможно создать экземпляр абстрактного класса
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\hotel_decorator.h(5): message : см. объявление "HotelDecorator"
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\Lab3.Decorator.cpp(14): message : из-за следующих членов:
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\Lab3.Decorator.cpp(14): message : int Travel::days(void): абстрактный
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\travel.h(6): message : см. объявление "Travel::days"
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\Lab3.Decorator.cpp(14,31): error C2259: "HotelDecorator": невозможно создать экземпляр абстрактного класса
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\hotel_decorator.h(5): message : см. объявление "HotelDecorator"
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\Lab3.Decorator.cpp(14,31): message : из-за следующих членов:
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\Lab3.Decorator.cpp(14,31): message : int Travel::days(void): абстрактный
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\travel.h(6): message : см. объявление "Travel::days"
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\Lab3.Decorator.cpp(14,50): error C2664: "HotelDecorator::HotelDecorator(Travel *,int)": невозможно преобразовать аргумент 2 из "const char [6]" в "int"
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\Lab3.Decorator.cpp(14,42): message : Не существует контекста, в котором такое преобразование возможно
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\hotel_decorator.h(7,2): message : см. объявление "HotelDecorator::HotelDecorator"
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\Lab3.Decorator.cpp(15): error C2259: "ExcursionDecorator": невозможно создать экземпляр абстрактного класса
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\excursion_decor.h(5): message : см. объявление "ExcursionDecorator"
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\Lab3.Decorator.cpp(15): message : из-за следующих членов:
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\Lab3.Decorator.cpp(15): message : int Travel::days(void): абстрактный
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\travel.h(6): message : см. объявление "Travel::days"
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\Lab3.Decorator.cpp(15,35): error C2259: "ExcursionDecorator": невозможно создать экземпляр абстрактного класса
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\excursion_decor.h(5): message : см. объявление "ExcursionDecorator"
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\Lab3.Decorator.cpp(15,35): message : из-за следующих членов:
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\Lab3.Decorator.cpp(15,35): message : int Travel::days(void): абстрактный
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\travel.h(6): message : см. объявление "Travel::days"
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\Lab3.Decorator.cpp(15,58): error C2664: "ExcursionDecorator::ExcursionDecorator(Travel *,int)": невозможно преобразовать аргумент 2 из "const char [10]" в "int"
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\Lab3.Decorator.cpp(15,46): message : Не существует контекста, в котором такое преобразование возможно
+E:\Учеба\ООП\Lab3.Decorator\Lab3.Decorator\excursion_decor.h(7,2): message : см. объявление "ExcursionDecorator::ExcursionDecorator"
+  Travel.cpp
+  Создание кода...
